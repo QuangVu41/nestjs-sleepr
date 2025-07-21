@@ -1,0 +1,2 @@
+GET http://localhost:3001/users
+cookie: Authentication=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODc4Zjg0OGE0NmI0MjM4OGJmMDcwYWUiLCJpYXQiOjE3NTI3NzE2MjgsImV4cCI6MTc1Mjc3NTIyOH0.frSytM3sevKIkW9WqlxykQdEl-u00s3whbhib8YUv7Y

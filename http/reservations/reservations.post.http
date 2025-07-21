@@ -1,0 +1,20 @@
+# @no-cookie-jar #
+
+POST http://localhost:3000/reservations
+Content-Type: application/json
+
+{
+  "startDate": "2025-10-01T00:00:00.000Z",
+  "endDate": "2025-10-02T00:00:00.000Z",
+  "placeId": "1234567890abcdef12345678",
+  "invoiceId": "0987654321fedcba09876543",
+  "charge": {
+    "amount": 5,
+    "card": {
+      "cvc": "333",
+      "exp_month": 10,
+      "exp_year": 2026,
+      "number": "4242 4242 4242 4242"
+    }
+  }
+}
