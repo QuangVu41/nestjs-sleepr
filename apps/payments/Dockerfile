@@ -7,10 +7,12 @@ COPY package-lock.json ./
 COPY tsconfig.json tsconfig.json
 COPY nest-cli.json nest-cli.json
 
+RUN npm ci
+
 COPY apps/payments apps/payments
 COPY libs libs
 
-RUN npm i -r
+RUN cd apps/auth && npm i
 
 RUN npm run build payments
 
