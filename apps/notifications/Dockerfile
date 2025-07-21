@@ -12,7 +12,7 @@ RUN npm ci
 COPY apps/notifications apps/notifications
 COPY libs libs
 
-RUN cd apps/auth && npm i
+RUN cd apps/notifications && npm i
 
 RUN npm run build notifications
 
