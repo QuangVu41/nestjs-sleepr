@@ -1,7 +1,7 @@
 # @no-cookie-jar #
 
-POST http://127.0.0.1:43333/reservations
-Cookie: Authentication=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdmNzlhNGQ0NWJiNjgxZGU4MTA0OGIiLCJpYXQiOjE3NTMxODQ3MDQsImV4cCI6MTc1MzE4ODMwNH0.aGiXWh6C7swqyOTL-MftBxHHK8siVM-nqgWZWMS_VMo;
+POST http://34.54.16.210/reservations/
+Cookie: Authentication=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODdmNzlhNGQ0NWJiNjgxZGU4MTA0OGIiLCJpYXQiOjE3NTMyNjgzNDUsImV4cCI6MTc1MzI3MTk0NX0.U6ICVHcre2APtQ-Q7bvFmLA8M29YOlr7gGoDk_5osHw;
 Content-Type: application/json
 
 {
@@ -10,7 +10,7 @@ Content-Type: application/json
   "placeId": "1234567890abcdef12345678",
   "invoiceId": "0987654321fedcba09876543",
   "charge": {
-    "amount": 5,
+    "amount": 17,
     "card": {
       "cvc": "333",
       "exp_month": 10,

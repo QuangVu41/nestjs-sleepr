@@ -1,4 +1,4 @@
-POST http://127.0.0.1:45975/auth/login
+POST http://34.54.16.210/auth/login/
 Content-Type: application/json
 {
   "email": "truongquangvu413@gmail.com",

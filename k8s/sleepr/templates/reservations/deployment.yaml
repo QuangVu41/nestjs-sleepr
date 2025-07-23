@@ -33,5 +33,26 @@ spec:
               value: 'payments'
             - name: PAYMENTS_PORT
               value: '3001'
+          resources:
+            requests:
+              memory: '1Gi'
+              cpu: '250m'
+            limits:
+              memory: '2Gi'
+              cpu: '500m'
           ports:
             - containerPort: 3004
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: topology.kubernetes.io/zone
+                    operator: In
+                    values:
+                      - asia-southeast1-a
+                      - asia-southeast1-b
+                      - asia-southeast1-c
+                      - asia-southeast2-a
+                      - asia-southeast2-b
+                      - asia-southeast2-c
