@@ -1,2 +1,2 @@
-GET http://localhost:3000/reservations/
+DELETE http://localhost:3000/reservations/6882114428feeb72098b5160
 Cookie: Authentication=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODgyMTFhZWY0YTNkMmU1ZWJhZGU1NGUiLCJpYXQiOjE3NTMzNTQ2ODgsImV4cCI6MTc1MzM1ODI4OH0.I62nKSmhCt1xIpGD22xPk4io5fEneA_PxNWaxm5KI70

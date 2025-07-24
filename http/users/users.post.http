@@ -1,6 +1,6 @@
-POST http://127.0.0.1:45975/users
+POST http://localhost:3001/users
 Content-Type: application/json
 {
-  "email": "truongquangvu413@gmail.com",
+  "email": "truongquangvu41@gmail.com",
   "password": "Quangvu413.."
 }
